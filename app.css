@@ -1,0 +1,44 @@
+body{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.minion{
+  width:600px;
+  height:600px; background:url(https://cjmart.jp/en/upload/save_image/0126_190824_mp4otl_y_3.jpg);
+  display:flex;
+  background-size:cover;
+}
+
+.eye{
+  position:relative;
+  width:148px;
+  height:148px;
+  top:85px;
+  display:inline-flex;
+  border-radius:50%;
+  background:white;
+  box-shadow:inset 0 0 35px rgba(0,0,0,.7);
+  transform:rotate(0deg);
+  
+}
+
+.lefteye{
+  left:129px;
+}
+
+.righteye{
+  left:158px;
+}
+
+.eye:after{
+  content:'';
+  width:50px;
+  height:50px;
+  background: radial-gradient(circle, white 10%, black 20%, black 80%, white 100%);
+  border-radius:50%;
+  margin-top:10px;
+  margin-left:50px;
+}
